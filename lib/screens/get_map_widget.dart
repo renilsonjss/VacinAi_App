@@ -7,11 +7,11 @@ Widget getMap() {
   String htmlId = "7";
   // ignore: undefined_prefixed_name
   ui.platformViewRegistry.registerViewFactory(htmlId, (int viewId) {
-    final myLatlng = LatLng(1.3521, 103.8198);
+    final myLatlng = LatLng(-9.747242740009787, -36.66890764519393);
 
     final mapOptions = MapOptions()
       ..zoom = 10
-      ..center = LatLng(1.3521, 103.8198);
+      ..center = LatLng(-9.747242740009787, -36.66890764519393);
 
     final elem = DivElement()
       ..id = htmlId
@@ -24,7 +24,7 @@ Widget getMap() {
     Marker(MarkerOptions()
       ..position = myLatlng
       ..map = map
-      ..title = 'Hello World!');
+      ..title = 'Ginásio da Escola Pedro Reis');
 
     return elem;
   });
