@@ -26,6 +26,11 @@ Widget getMap() {
       ..map = map
       ..title = 'Ginásio da Escola Pedro Reis');
 
+    Marker(MarkerOptions()
+      ..position = LatLng(-9.747454048618074, -36.6592585298503)
+      ..map = map
+      ..title = 'Ginásio Municipal João Paulo II');
+
     return elem;
   });
 
