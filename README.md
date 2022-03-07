@@ -1,16 +1,23 @@
-# vacinai_app_novo
+# Agendamento de vacinação
 
-A new Flutter project.
+Aplicação direcionada para a disciplina de PRMO. 
 
-## Getting Started
+## Equipe:
+- [renilsonjs]:
+Renilson José;
 
-This project is a starting point for a Flutter application.
+- [clari34]:
+Ana Clara Silva Nunes;
 
-A few resources to get you started if this is your first Flutter project:
+- [dudinha21]:
+Maria Eduarda Teixeira;
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Viviannepio]:
+Vivianne Costa;
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [MarianaGuedes]:
+Mariana Fernandes;
+
+- [eduardha]:
+Marya Eduardha Freitas;
+
