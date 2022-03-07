@@ -44,7 +44,7 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(
               icon: Icon(Icons.calendar_today), label: 'Agendar vacinação'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.room_outlined), label: 'Mapa'),
+              icon: Icon(Icons.room_outlined), label: 'Locais de Vacinação'),
         ],
         onTap: (pagina) {
           pc.animateToPage(pagina,

@@ -12,7 +12,7 @@ class _MapaState extends State<Mapa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mapa'),
+        title: const Text('LOCAIS PERTO DE VOCÊ!'),
         backgroundColor: Colors.indigo,
       ),
       body: Container(child: getMap()),
