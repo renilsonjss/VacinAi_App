@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:html';
 import 'dart:ui' as ui;
@@ -10,7 +11,7 @@ Widget getMap() {
     final myLatlng = LatLng(-9.747242740009787, -36.66890764519393);
 
     final mapOptions = MapOptions()
-      ..zoom = 10
+      ..zoom = 12
       ..center = LatLng(-9.747242740009787, -36.66890764519393);
 
     final elem = DivElement()
